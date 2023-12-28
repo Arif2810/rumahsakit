@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "ckeditor/ckeditor",
-            "version": "4.14.0",
+            "version": "4.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ckeditor/ckeditor4-releases.git",
-                "reference": "998e43cd6305bca24304b9538a682da123ac5b73"
+                "reference": "1690c8f35eec3c939fc0f941436d6fbd85d2ea2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ckeditor/ckeditor4-releases/zipball/998e43cd6305bca24304b9538a682da123ac5b73",
-                "reference": "998e43cd6305bca24304b9538a682da123ac5b73",
+                "url": "https://api.github.com/repos/ckeditor/ckeditor4-releases/zipball/1690c8f35eec3c939fc0f941436d6fbd85d2ea2e",
+                "reference": "1690c8f35eec3c939fc0f941436d6fbd85d2ea2e",
                 "shasum": ""
             },
             "type": "library",
@@ -46,7 +46,13 @@
                 "text",
                 "wysiwyg"
             ],
-            "time": "2020-03-04T13:19:40+00:00"
+            "support": {
+                "forum": "https://stackoverflow.com/tags/ckeditor",
+                "issues": "https://github.com/ckeditor/ckeditor4/issues",
+                "source": "https://github.com/ckeditor/ckeditor4",
+                "wiki": "https://ckeditor.com/docs/ckeditor4/latest/"
+            },
+            "time": "2021-11-17T10:54:44+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -309,5 +315,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
 }
